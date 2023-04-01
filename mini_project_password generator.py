@@ -18,12 +18,13 @@ def generate_password():
 
     password = "".join(password)
 
-    print(password)
+    print(f"\nYour new password: {password}")
 
 
 while True:
-    command = input("Create a password - yes or no: ")
+    command = input("\nCreate a password - yes or no: ")
     if command.lower() == "no":
+        print("Program ended")
         break
 
     else:
