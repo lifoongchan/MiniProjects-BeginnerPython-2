@@ -65,7 +65,7 @@ def roll_dice():
     }
 
     dice1 = random.randint(1, 6)
-    dice2 = random.randint(1, 6)
+    dice2 = random.randint(1, 6) #random.randint -> return a number between x and y
 
     print("dice rolled: {} and {}".format(dice1, dice2))
     print("\n".join(dice_drawing[dice1]))
