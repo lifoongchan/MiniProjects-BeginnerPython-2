@@ -15,7 +15,7 @@ def generate_qrcode(text):
 
     qr.add_data(text)
     qr.make(fit=True)
-    img = qr.make_image(fil_color="blue", back_color="white")
+    img = qr.make_image(fil_color="Black", back_color="white")
     img.save("new_qr.png")
 
 
