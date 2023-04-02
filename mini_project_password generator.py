@@ -26,6 +26,9 @@ while True:
     if command.lower() == "no":
         print("Program ended")
         break
+        
+    elif command.lower() == "yes":
+         generate_password()
 
     else:
-        generate_password()
+        print("\nWe couldn't recognise your command. Please check your input and key in again.")
